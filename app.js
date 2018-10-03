@@ -52,7 +52,7 @@ app.use(function(err, req, res, next) {
 });
 
 //Set up mongoose connection
-var mongoDB = 'mongodb://localhost/library';
+var mongoDB = process.env.MONGODB_URI || 'mongodb://localhost/library';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
