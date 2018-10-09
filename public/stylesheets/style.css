@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #dacbcf;
   background-color: black;
 }
 
@@ -20,6 +20,10 @@ a:focus, a:hover {
 
 .text-danger {
     color: #777;
+}
+
+.text-warning {
+    color: #e6ef66;
 }
 
 .sidebar-nav {
