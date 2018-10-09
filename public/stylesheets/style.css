@@ -1,10 +1,25 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
 }
 
 a {
-  color: #00B7FF;
+  color: #ff1560;
+}
+
+a:focus, a:hover {
+    color: #a7697d;
+    text-decoration: underline;
+}
+
+.text-success {
+    color: #1ada1e;
+}
+
+.text-danger {
+    color: #777;
 }
 
 .sidebar-nav {
